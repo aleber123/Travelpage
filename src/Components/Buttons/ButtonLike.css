@@ -1,0 +1,33 @@
+/* Definiera initiala stilar för knappen och hjärtikonen */
+.heart-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow transition */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+}
+
+.heart-icon {
+  color: rgba(14, 71, 120, 0.2); /* Ursprunglig färg på hjärtat med 50% opacitet */
+  transition: color 0.3s ease; /* Lägg till övergång för smidig färgändring */
+  width: 50px;
+  height: 50px;
+}
+
+/* Definiera stilar när knappen är gillad */
+.heart-button.liked {
+  background: transparent;
+  border: 1px solid transparent; /* Ta bort kanten när det är gillat */
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); /* Lägg till skugga när det är gillat */
+}
+
+.heart-button.liked .heart-icon {
+  color: #0E4778; /* Ändra färgen till blå när det är gillat */
+}

@@ -1,0 +1,55 @@
+/* Styling för knappen antal resenärer */
+
+.traveler-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.custom-button i {
+  margin: 0 10px;
+  
+}
+.custom-button{
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+
+
+}
+
+
+.add-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1 px;
+  border-color: blue;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1 px;
+  border-color: blue;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+

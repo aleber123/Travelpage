@@ -1,0 +1,26 @@
+/* Styling för kvitto*/
+
+
+::placeholder {
+  color: #c9c5c5;
+  opacity: 1;
+}
+
+
+.dropbtn {
+  background-color: #e8ecf4;
+  color: #9fa5b1;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: small;
+}
+
+@media screen and (max-width: 725px) {
+  .dropbtn{
+    width: 70%;
+  }
+  .urlInput{
+    width: 200px;
+  }
+}
